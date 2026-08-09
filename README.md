@@ -4,11 +4,7 @@
 
 Dedicated to my sisters in Afghanistan, with love.
 
-<!-- 
-Replace this with a real screenshot or short GIF once you have one.
-Example: ![Gallery screenshot](docs/screenshot-gallery.png)
--->
-> 📸 *Screenshots/GIF coming soon — see [Adding Screenshots](#adding-screenshots) below.*
+
 
 ---
 
@@ -116,16 +112,6 @@ No external dependencies or package managers are required — everything uses fi
 - [ ] Unit tests for `PuzzleEngine` (grid slicing) and win-condition logic
 - [ ] Add more heroes and expand into other regions/fields
 
-## Adding Screenshots
-
-To make this README (and your MLH application) stand out, add real screenshots or a short GIF:
-
-1. Take screenshots of the Onboarding, Gallery, Puzzle, and Bio-card screens.
-2. Save them under a `docs/` folder in the repo, e.g. `docs/screenshot-gallery.png`.
-3. Reference them at the top of this README:
-   ```markdown
-   ![Gallery screenshot](docs/screenshot-gallery.png)
-   ```
 
 ## Author
 

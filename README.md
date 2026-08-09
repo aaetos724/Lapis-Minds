@@ -18,7 +18,6 @@ Dedicated to my sisters in Afghanistan, with love.
 - [How It Works](#how-it-works)
 - [Accessibility & Localization](#accessibility--localization)
 - [Roadmap](#roadmap)
-- [Adding Screenshots](#adding-screenshots)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)

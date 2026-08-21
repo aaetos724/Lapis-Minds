@@ -37,11 +37,11 @@ This project was built as a submission for the **Swift Student Challenge**.
 
 <table>
   <tr>
-    <td align="center"><img src="1.png" width="150" alt="Onboarding screen" /><br/><sub>Bilingual dedication</sub></td>
-    <td align="center"><img src="2.png" width="150" alt="Gallery of women" /><br/><sub>Gallery (18 women)</sub></td>
-    <td align="center"><img src="5.png" width="150" alt="Puzzle in progress" /><br/><sub>Solving the puzzle</sub></td>
-    <td align="center"><img src="3.png" width="150" alt="Solved puzzle" /><br/><sub>Puzzle solved</sub></td>
-    <td align="center"><img src="4.png" width="150" alt="Biography card" /><br/><sub>Bio + narration</sub></td>
+    <td align="center"><img src="1.jpg" width="150" alt="Onboarding screen" /><br/><sub>Bilingual dedication</sub></td>
+    <td align="center"><img src="2.jpg" width="150" alt="Gallery of women" /><br/><sub>Gallery (18 women)</sub></td>
+    <td align="center"><img src="5.jpg" width="150" alt="Puzzle in progress" /><br/><sub>Solving the puzzle</sub></td>
+    <td align="center"><img src="3.jpg" width="150" alt="Solved puzzle" /><br/><sub>Puzzle solved</sub></td>
+    <td align="center"><img src="4.jpg" width="150" alt="Biography card" /><br/><sub>Bio + narration</sub></td>
   </tr>
 </table>
 

@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode / Swift Playgrounds user state (machine-specific, never commit)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+
+# Swift Package Manager build artifacts
+.build/
+.swiftpm/xcode/package.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Build output
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM

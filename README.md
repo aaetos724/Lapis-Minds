@@ -11,6 +11,7 @@ Dedicated to my sisters in Afghanistan, with love.
 ## Table of Contents
 
 - [About](#about)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -31,6 +32,18 @@ Dedicated to my sisters in Afghanistan, with love.
 Each woman is represented by a photo puzzle. Solving the puzzle reveals a bilingual (English/Farsi) biography card that can also be **read aloud** in both languages using text-to-speech. The goal is to combine a lightweight, satisfying puzzle mechanic with real educational content, so players walk away having *learned something* about people whose stories are rarely told in mainstream media.
 
 This project was built as a submission for the **Swift Student Challenge**.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="1.png" width="150" alt="Onboarding screen" /><br/><sub>Bilingual dedication</sub></td>
+    <td align="center"><img src="2.png" width="150" alt="Gallery of women" /><br/><sub>Gallery (18 women)</sub></td>
+    <td align="center"><img src="5.png" width="150" alt="Puzzle in progress" /><br/><sub>Solving the puzzle</sub></td>
+    <td align="center"><img src="3.png" width="150" alt="Solved puzzle" /><br/><sub>Puzzle solved</sub></td>
+    <td align="center"><img src="4.png" width="150" alt="Biography card" /><br/><sub>Bio + narration</sub></td>
+  </tr>
+</table>
 
 ## Features
 
@@ -57,14 +70,16 @@ This project was built as a submission for the **Swift Student Challenge**.
 
 ```
 swiftchallenge.swiftpm/
-├── MyApp.swift              # App entry point (@main)
-├── ContentView.swift         # Root view, launches onboarding
-├── OnboardingView.swift      # Animated dedication + entry point
-├── GalleryView.swift         # Horizontal scroll gallery of all heroes
+├── Package.swift              # Swift Playgrounds app manifest (iOS 16+, Swift 6)
+├── MyApp.swift                # App entry point (@main)
+├── ContentView.swift          # Root view, launches onboarding
+├── OnboardingView.swift       # Animated dedication + entry point
+├── GalleryView.swift          # Horizontal scroll gallery of all heroes
 ├── Data.swift                 # Scholar model + the 18 heroes' data
-├── PuzzleLogic.swift          # PuzzleEngine — slices UIImage into puzzle pieces
+├── PuzzleLogic.swift          # PuzzleEngine — slices the portrait into pieces
 ├── PuzzleBoardView.swift      # Draggable puzzle grid + win detection
 ├── PuzzleGameView.swift       # Puzzle screen container + 3D flip control
+├── HeroBioView.swift          # Hero biography card (front of the flip)
 ├── CardBackBioView.swift      # Bilingual biography card (back of the flip)
 ├── AudioManager.swift         # Background music playback
 ├── Speech.swift               # StorySpeaker — bilingual text-to-speech
@@ -79,7 +94,7 @@ This project is a **Swift Playgrounds app** (`.swiftpm`), so the easiest way to 
 1. Install [Swift Playgrounds](https://apps.apple.com/app/swift-playgrounds/id908519492) on your iPad or Mac.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/lapis-minds.git
+   git clone https://github.com/aaetos724/Lapis-Minds.git
    ```
 3. Open `swiftchallenge.swiftpm` — it will launch directly in Swift Playgrounds.
 4. Press **Run**.
@@ -114,8 +129,8 @@ No external dependencies or package managers are required — everything uses fi
 
 ## Author
 
-**Elisa Torres**
-- GitHub: [@your-username](https://github.com/your-username) <!-- update this -->
+**Elisa A.**
+- GitHub: [@aaetos724](https://github.com/aaetos724)
 
 ## License
 
